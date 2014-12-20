@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ExtendedTypes\ExtendedBoolean.cs" />
+    <Compile Include="ExtendedTypes\ExtendedEnum.cs" />
     <Compile Include="ExtendedTypes\ExtendedEnumerable.cs" />
     <Compile Include="ExtendedTypes\ExtendedString.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
