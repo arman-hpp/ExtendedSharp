@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ExtendedSharp.Core.ExtendedTypes
+namespace ExtendedSharp.Core.Extensions
 {
     public static class ExBoolean
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 
-namespace ExtendedSharp.Core.ExtendedTypes
+namespace ExtendedSharp.Core.Extensions
 {
     public static class StringExtensions
     {

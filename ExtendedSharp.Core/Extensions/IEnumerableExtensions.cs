@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace ExtendedSharp.Core.ExtendedTypes
+namespace ExtendedSharp.Core.Extensions
 {
-    public static class IEnumerableExtensions
+    public static class EnumerableExtensions
     {
         public static string ToDelimString(this IEnumerable<string> arr, string delim = ",")
         {
