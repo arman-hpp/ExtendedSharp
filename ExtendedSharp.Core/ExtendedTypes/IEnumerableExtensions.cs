@@ -2,7 +2,7 @@
 
 namespace ExtendedSharp.Core.ExtendedTypes
 {
-    public static class ExtendedEnumerable
+    public static class IEnumerableExtensions
     {
         public static string ToDelimString(this IEnumerable<string> arr, string delim = ",")
         {

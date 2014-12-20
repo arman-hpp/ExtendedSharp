@@ -1,8 +1,9 @@
-﻿using System.Text.RegularExpressions;
+﻿using System;
+using System.Text.RegularExpressions;
 
 namespace ExtendedSharp.Core.ExtendedTypes
 {
-    public static class ExtendedString
+    public static class StringExtensions
     {
         public static string TrimAndReduce(this string str)
         {
@@ -12,6 +13,13 @@ namespace ExtendedSharp.Core.ExtendedTypes
         public static string ConvertWhitespacesToSingleSpaces(this string value)
         {
             return Regex.Replace(value, @"\s+", " ");
+        }
+
+        public static string Reverse(this string input)
+        {
+            var chars = input.ToCharArray();
+            Array.Reverse(chars);
+            return new String(chars);
         }
     }
 }

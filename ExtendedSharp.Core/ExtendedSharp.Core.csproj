@@ -39,10 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExtendedTypes\ExtendedBoolean.cs" />
-    <Compile Include="ExtendedTypes\ExtendedEnum.cs" />
-    <Compile Include="ExtendedTypes\ExtendedEnumerable.cs" />
-    <Compile Include="ExtendedTypes\ExtendedString.cs" />
+    <Compile Include="ExtendedTypes\BooleanExtensions.cs" />
+    <Compile Include="ExtendedTypes\EnumExtensions.cs" />
+    <Compile Include="ExtendedTypes\IEnumerableExtensions.cs" />
+    <Compile Include="ExtendedTypes\StringExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rand.cs" />
   </ItemGroup>
