@@ -50,5 +50,22 @@ namespace ExtendedSharp.Core.Extensions
             return i > low && i < high;
         }
 
+        /// <summary>
+        /// Executes the specified action the specified number of times, passing in the iterator value each time.
+        /// </summary>
+        /// <param name="i"></param>
+        /// <param name="action"></param>
+        public static void Times(this int i, Action<int> action)
+        {
+            if (i < 0)
+            {
+                throw new ArgumentOutOfRangeException("i", "i must be not be less than zero.");
+            }
+
+            for (var c = 0; c < i; c++)
+            {
+                action(c);
+            }
+        }
     }
 }

@@ -45,10 +45,7 @@ namespace ExtendedSharp.Core.Extensions
             }
 
             var sb = new StringBuilder();
-            repeatCount.Times((i) =>
-            {
-                sb.Append(s);
-            });
+            repeatCount.Times(i => sb.Append(s));
             return sb.ToString();
         }
 
